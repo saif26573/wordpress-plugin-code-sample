@@ -1,0 +1,15 @@
+{
+  "name": "saif-khan/vendor-inventory-manager",
+  "description": "Sanitized WordPress plugin architecture sample",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SaifKhan\\VendorInventory\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
+
